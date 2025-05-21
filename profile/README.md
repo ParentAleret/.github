@@ -33,41 +33,6 @@ With increasing digital exposure among children, ParentAlert provides a modern t
 - **Socket.IO** (optional) – real-time alert pushing
 
 
-## 📦 Folder Structure
-
-```
-lib/
-├── main.dart
-├── core/
-│   ├── config/
-│   ├── services/
-│   └── utils/
-├── features/
-│   ├── auth/
-│   ├── alerts/
-│   ├── child_profile/
-│   └── settings/
-├── shared/
-│   ├── widgets/
-│   └── styles/
-```
-
-
-## 🧪 Development & Environment
-
-- Configurable via `.env` file (e.g., backend base URL, FCM keys)
-- Environment switching (dev/staging/prod)
-- Supports both Android and iOS builds
-
-
-## 🚧 Roadmap
-
-- [x] Basic login & JWT auth
-- [x] Alert screen UI
-- [ ] Child linking workflow
-- [ ] Localization & language support
-- [ ] Analytics dashboard for parents
-
 
 ## 📄 License
 
